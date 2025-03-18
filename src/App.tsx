@@ -202,7 +202,7 @@ function HomePage() {
                 } group-hover:text-purple-400 transition-colors`} />
                 <input
                   type="text"
-                  placeholder="Enter your research query..."
+                  placeholder="What's on your mind?"
                   value={mainSearchQuery}
                   onChange={(e) => setMainSearchQuery(e.target.value)}
                   className={`w-full pl-14 pr-5 py-4 rounded-xl text-lg ${
@@ -388,7 +388,7 @@ function HomePage() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              Powerful Research Tools
+              How vivum empowers you
             </motion.h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5 gap-8 lg:gap-10">
               <FeatureCard
