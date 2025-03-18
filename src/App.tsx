@@ -364,9 +364,9 @@ function HomePage() {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              We're putting the finishing touches on something extraordinary. 
+              We're crafting a smarter way to explore and innovate. 
               <br className="hidden sm:block" />
-              Get ready to experience the future of biomedical research.
+              Vivum is almost here—get ready to experience the future!
             </motion.p>
           </motion.div>
 
